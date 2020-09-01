@@ -7,7 +7,6 @@ import javax.persistence.Column;
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.validation.constraints.NotEmpty;
@@ -19,7 +18,7 @@ import lombok.Setter;
 @Getter @Setter
 public class Member {
     
-    @Id @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @Id @GeneratedValue
     @Column(name = "member_id")
     private Long id;
 

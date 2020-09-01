@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-JpashopApplication<jpashop>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "jpabook.jpashop.JpashopApplication",
+            "projectName": "jpashop",
+            "args": ""
+        }
+    ]
+}
