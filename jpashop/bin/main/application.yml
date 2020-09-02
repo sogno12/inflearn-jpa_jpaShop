@@ -12,6 +12,7 @@ spring:
    hibernate:
     # show_sql: true
     format_sql: true
+    default_batch_fetch_size: 100 # 패치조인에서 페이징처리할 때 성능최적화를 위해 작성 (1000개 정도가 MAX)
 
 logging:
  level:
